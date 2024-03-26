@@ -281,7 +281,7 @@ class myhandler(BaseHTTPRequestHandler):
     def do_Get(self):
         print("request recieved")
         self.send_response(200)
-        self.send-header('content-type','text/html; charset=utf-8')
+        self.send_header('content-type','text/html; charset=utf-8')
         self.end_headers()
         self.wfile.write(content.encode())
 server_address = ('',8000)
