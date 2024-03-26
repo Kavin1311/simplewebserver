@@ -24,7 +24,7 @@ Testing the webserver.
 
 
 ## OUTPUT:
-
+![alt text](<Screenshot 2024-03-26 155730.png>)
 
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
